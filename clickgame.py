@@ -2,10 +2,10 @@ import turtle
 import random
 import time
 
-
 color_list = ["black", "orange", "purple", "blue", "red"]
 shape_list = ["triangle", "circle", "square", "rectangle"]
-length_list = [20, 75, 50, 24, 60]
+legnth_list = [20, 75, 50, 24, 60]
+
 winner = False
 pen = turtle.Pen()
 pen.shape("turtle")
