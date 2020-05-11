@@ -5,7 +5,7 @@ import time
 colors = ["black", "orange", "purple", "blue", "red"]
 shapes = ["triangle", "circle", "square", "rectangle"]
 lengths = [20, 75, 50, 24, 60]
-
+points = 0
 winner = False
 pen = turtle.Pen()
 pen.shape("turtle")
@@ -53,9 +53,11 @@ def draw():
                 pen.left(90)
                 pen.forward(length)
             pen.end_fill()
+    
 
 
 while winner == False:
-    draw()
+    draw() 
     time.sleep(3)
     pen.reset()
+    
